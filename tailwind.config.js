@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        "alex-brush": ["Alex Brush", "cursive"],
+        courgette: ["Courgette", "cursive"],
         "ms-madi": ["MS Madi", "cursive"],
+        satisfy: ["Satisfy", "cursive"],
       },
     },
     colors: {
