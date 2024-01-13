@@ -49,7 +49,7 @@ const Information: React.FC = () => {
         FAQ
       </div>
       <div className="flex flex-col items-center">
-        <div className="flex flex-col items-center gap-5 sm:w-2/3 w-auto">
+        <div className="flex flex-col items-center gap-5 sm:w-2/3 w-auto p-5">
           {renderQuestions()}
         </div>
       </div>

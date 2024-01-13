@@ -3,7 +3,7 @@ const About: React.FC = () => {
     <section className="bg-pakistan_green-900 w-screen py-12 flex justify-center flex-col items-center">
       <a className="anchor" id="About"></a>
       <div className="text-center sm:text-7xl text-5xl p-6">About</div>
-      <div className="text-center text-xl py-5 sm:w-2/3 w-auto">
+      <div className="text-center text-xl py-5 sm:w-2/3 w-auto p-5">
         We are getting married on May 19th, 2024 at Princess Lake Leisure and
         Lodging in Terrace, BC. The venue is approximately 30 minutes east of
         Terrace on Highway 16. Come join us for a day of fun and celebration
