@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="text-center text-xl py-5 sm:w-2/3 w-auto">
         We are getting married on May 19th, 2024 at Princess Lake Leisure and
         Lodging in Terrace, BC. The venue is approximately 30 minutes east of
-        Terrace on Highway 16. Come join use for a day of fun and celebration
+        Terrace on Highway 16. Come join us for a day of fun and celebration
         while we dive in to this new chapter of our lives!
       </div>
       <iframe
@@ -15,7 +15,7 @@ const About: React.FC = () => {
         height="450"
         loading="lazy"
       ></iframe>
-      <div className="text-center sm:text-5xl text-4xl pt-16 pb-8">
+      {/* <div className="text-center sm:text-5xl text-4xl pt-16 pb-8">
         Schedule
       </div>
       <div className="flex flex-col gap-5">
@@ -39,7 +39,7 @@ const About: React.FC = () => {
           <div className="text-center text-3xl">8:00 PM</div>
           <div className="text-center text-xl">Dance the night away!</div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
