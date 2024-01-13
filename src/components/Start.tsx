@@ -4,7 +4,7 @@ const Start: React.FC = () => {
       <div className="flex sm:flex-row flex-col">
         <div className="bg-cornsilk flex flex-col justify-center items-center p-6 h-screen sm:w-1/2 w-screen">
           <div className="text-center text-dark_moss_green font-alex-brush sm:text-9xl text-7xl">
-            Micheal and Georgia's Wedding
+            Michael and Georgia's Wedding
           </div>
           <div className="text-center font-courgette text-dark_moss_green text-5xl">
             May 19 2024
