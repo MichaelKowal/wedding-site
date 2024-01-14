@@ -18,7 +18,7 @@ const Start: React.FC = () => {
         </div>
         <div
           id="splash"
-          className={`sm:w-1/2 w-screen h-screen bg-[url('splash.png')] bg-no-repeat bg-center bg-cover`}
+          className={`sm:w-1/2 w-screen h-screen bg-[url('resources/splash3.png')] bg-no-repeat bg-center bg-cover`}
         />
       </div>
     </section>
