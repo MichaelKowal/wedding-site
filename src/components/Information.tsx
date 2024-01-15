@@ -53,7 +53,7 @@ const Information: React.FC = () => {
           {renderQuestions()}
         </div>
       </div>
-      <div className="text-center sm:text-5xl text-4xl pt-16 pb-8 px-5">
+      <div className="text-center sm:text-5xl text-4xl py-8 px-5">
         Shuttle Schedule
         <div className="text-center text-sm">
           Subject to change closer to the date. Please check back for updates.
