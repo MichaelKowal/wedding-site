@@ -53,6 +53,54 @@ const Information: React.FC = () => {
           {renderQuestions()}
         </div>
       </div>
+      <div className="text-center sm:text-5xl text-4xl pt-16 pb-8">
+        Shuttle Schedule
+        <div className="text-center text-sm">
+          Subject to change closer to the date. Please check back for updates.
+        </div>
+      </div>
+      <div className="flex-row justify-between px-5">
+        <div className="text-center text-3xl">12:45 PM</div>
+        <div className="flex-row">
+          <div className="text-center text-xl">
+            Shuttle arrives at Holiday Inn Express for pick up
+          </div>
+          <div className="text-center text-sm">
+            Please arrive on time. There are no other shuttles and taxi service
+            in Terrace is limited
+          </div>
+        </div>
+      </div>
+      <div className="flex-row justify-between px-5">
+        <div className="text-center text-3xl">1:00 PM</div>
+        <div className="flex-row">
+          <div className="text-center text-xl">
+            Shuttle leaves Holiday Inn Express
+          </div>
+        </div>
+      </div>
+      <div className="flex-row justify-between px-5">
+        <div className="text-center text-3xl">1:30 PM</div>
+        <div className="flex-row">
+          <div className="text-center text-xl">Shuttle arrives at venue</div>
+        </div>
+      </div>
+      <div className="flex-row justify-between px-5">
+        <div className="text-center text-3xl">10:15 PM</div>
+        <div className="flex-row">
+          <div className="text-center text-xl">
+            Shuttle returns to venue for pick up
+          </div>
+        </div>
+      </div>
+      <div className="flex-row justify-between px-5">
+        <div className="text-center text-3xl">10:30 PM</div>
+        <div className="flex-row">
+          <div className="text-center text-xl">
+            Shuttle leaves venue for Holiday Inn Express
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

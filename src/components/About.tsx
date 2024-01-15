@@ -17,11 +17,11 @@ const About: React.FC = () => {
         below.
       </div>
       <div className="text-center text-xl sm:w-2/3 w-auto p-5">
-        There is space at the venue for RVs and tents and we encourage anyone
-        who is willing to stay at the lake with us. For those who would rather
-        stay in a hotel, we recommend the Holiday Inn Express in Thornhill.
-        There is an airport shuttle to and from the hotel. We will also be
-        providing a shuttle to and from the venue for the ceremony and
+        There is space at the venue for RVs and tents. We encourage anyone who
+        is willing to stay and camp at the lake with us. For those who would
+        rather stay in a hotel, we recommend the Holiday Inn Express in
+        Thornhill. There is an airport shuttle to and from the hotel. We will
+        also be providing a shuttle to and from the venue for the ceremony and
         reception.
       </div>
       <iframe
