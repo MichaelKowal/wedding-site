@@ -1,8 +1,28 @@
+import { useEffect } from "react";
+
 const About: React.FC = () => {
+  useEffect(() => {
+    (function (d, id) {
+      if (d.getElementById(id)) {
+        if ((window as any).__TOMORROW__) {
+          (window as any).__TOMORROW__.renderWidget();
+        }
+        return;
+      }
+      const fjs = d.getElementsByTagName("script")[0];
+      const js = d.createElement("script");
+      js.id = id;
+      (js as HTMLScriptElement).src =
+        "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+      fjs.parentNode?.insertBefore(js, fjs);
+    })(document, "tomorrow-sdk");
+  }, []);
+
   return (
-    <section className="bg-pakistan_green-900 w-screen py-12 flex justify-center flex-col items-center">
+    <section className="bg-pakistan_green-900 w-full py-12 flex justify-center flex-col items-center">
       <a className="anchor" id="About"></a>
-      <div className="text-center sm:text-7xl text-5xl p-6">About</div>
+      <div className="text-center sm:text-7xl text-5xl pb-6">About</div>
       <div className="text-center text-xl sm:w-2/3 w-auto p-5">
         Come join us for our wedding! It will be a day of fun and celebration as
         we start this new chapter of our lives!
@@ -30,31 +50,35 @@ const About: React.FC = () => {
         height="450"
         loading="lazy"
       ></iframe>
-      {/* <div className="text-center sm:text-5xl text-4xl pt-16 pb-8">
-        Schedule
+
+      <div
+        className="tomorrow sm:w-2/3 m-5"
+        data-location-id="017102"
+        data-language="EN"
+        data-unit-system="METRIC"
+        data-skin="light"
+        data-widget-type="upcoming"
+        style={{ paddingBottom: "22px", position: "relative" }}
+      >
+        <a
+          href="https://www.tomorrow.io/weather-api/"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+          style={{
+            position: "absolute",
+            bottom: 0,
+            transform: "translateX(-50%)",
+            left: "50%",
+          }}
+        >
+          <img
+            alt="Powered by the Tomorrow.io Weather API"
+            src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+            width="250"
+            height="18"
+          />
+        </a>
       </div>
-      <div className="flex flex-col gap-5">
-        <div className="flex flex-col">
-          <div className="text-center text-3xl">2:00 PM</div>
-          <div className="text-center text-xl">Ceremony begins!</div>
-        </div>
-        <div className="flex flex-col">
-          <div className="text-center text-3xl">3:00 PM</div>
-          <div className="text-center text-xl">Lake time!</div>
-        </div>
-        <div className="flex flex-col">
-          <div className="text-center text-3xl">5:00 PM</div>
-          <div className="text-center text-xl">Reception begins!</div>
-        </div>
-        <div className="flex flex-col">
-          <div className="text-center text-3xl">6:00 PM</div>
-          <div className="text-center text-xl">Dinner is served!</div>
-        </div>
-        <div className="flex flex-col">
-          <div className="text-center text-3xl">8:00 PM</div>
-          <div className="text-center text-xl">Dance the night away!</div>
-        </div>
-      </div> */}
     </section>
   );
 };

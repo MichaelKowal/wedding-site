@@ -1,9 +1,12 @@
 import About from "./About";
 import Footer from "./Footer";
 import Information from "./Information";
-import RSVP from "./RSVP";
+import Menu from "./Menu";
+import Registry from "./Registry";
+import Schedule from "./Schedule";
 import Start from "./Start";
 import Title from "./Title";
+import Vibes from "./Vibes";
 
 function App() {
   return (
@@ -12,8 +15,11 @@ function App() {
       <div className="h-screen bg-cornsilk text-dark_moss_green">
         <Start />
         <About />
+        <Schedule />
+        <Menu />
+        <Vibes />
+        <Registry />
         <Information />
-        <RSVP />
         <Footer />
       </div>
     </div>

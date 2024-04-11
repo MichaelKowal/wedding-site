@@ -26,6 +26,14 @@ const Information: React.FC = () => {
       q: "Will there be alcohol?",
       a: "Yes, we will have some available and you are welcome to bring your favorite drinks!",
     },
+    {
+      q: "How many people are coming?",
+      a: "We are expecting around 80 guests.",
+    },
+    {
+      q: "How do I RSVP?",
+      a: "RSVPs are closed now. If you have any questions please reach out to us directly.",
+    },
     { q: "Can I bring my dog?", a: "No pups allowed, sorry!" },
   ];
 
@@ -43,9 +51,9 @@ const Information: React.FC = () => {
   };
 
   return (
-    <div className="bg-cornsilk w-screen pb-10">
+    <section className="bg-cornsilk w-full py-12">
       <a className="anchor" id="Information"></a>
-      <div className="text-center font-courgette sm:text-7xl text-5xl p-6">
+      <div className="text-center font-courgette sm:text-7xl text-5xl pb-6">
         FAQ
       </div>
       <div className="flex flex-col items-center">
@@ -53,7 +61,7 @@ const Information: React.FC = () => {
           {renderQuestions()}
         </div>
       </div>
-      <div className="text-center sm:text-5xl text-4xl py-8 px-5">
+      {/* <div className="text-center sm:text-5xl text-4xl py-8 px-5">
         Shuttle Schedule
         <div className="text-center text-sm">
           Subject to change closer to the date. Please check back for updates.
@@ -92,8 +100,8 @@ const Information: React.FC = () => {
             Shuttle leaves venue for Holiday Inn Express
           </div>
         </div>
-      </div>
-    </div>
+      </div> */}
+    </section>
   );
 };
 
