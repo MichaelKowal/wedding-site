@@ -50,7 +50,9 @@ const About: React.FC = () => {
         height="450"
         loading="lazy"
       ></iframe>
-
+      <div className="text-center text-3xl sm:w-2/3 w-auto pt-5">
+        Current Weather in Terrace
+      </div>
       <div
         className="tomorrow sm:w-2/3 m-5"
         data-location-id="017102"
