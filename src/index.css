@@ -144,3 +144,18 @@ a.anchor {
   width: 50%;
   opacity: 1;
 }
+
+#registry-button {
+  transition: all 0.2s ease-in-out;
+}
+
+#registry-button:hover {
+  transform: scale(1.1);
+  background-color: #88994f;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+#registry-button:active {
+  transform: scale(1.05);
+  background-color: #a9b876;
+}

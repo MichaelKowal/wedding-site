@@ -16,7 +16,8 @@ const Registry: React.FC = () => {
         for the rest of our lives.
       </div>
       <button
-        className="text-center text-xl p-5 text-white bg-dark_moss_green text-earth_yellow-900 rounded-md hover:bg-dark_moss_green-600 active:bg-dark_moss_green-800"
+        id="registry-button"
+        className="text-center text-xl p-5 text-white bg-dark_moss_green text-earth_yellow-900 rounded-md"
         onClick={() =>
           window.open(
             "https://www.honeyfund.com/site/kowal-riddell-05-19-2024",

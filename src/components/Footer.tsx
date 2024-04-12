@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
       id="Footer"
       className="bg-cornsilk w-full h-50 flex flex-col justify-center items-center"
     >
-      <div className="text-center font-courgette  p-6">
+      <div className="text-[black] text-center font-courgette  p-6">
         © 2024 Michael Kowal
       </div>
       <img
