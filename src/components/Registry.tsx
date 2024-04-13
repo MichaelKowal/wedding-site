@@ -11,7 +11,7 @@ const Registry: React.FC = () => {
       <div className="text-center text-xl sm:w-2/3 w-auto p-5">
         We are so excited to host you at our wedding. Many of you have been
         asking us how you can contribute. If you would like to give a gift
-        please instead support our honeymoon. Click the button below to view our
+        please consider supporting our honeymoon. Click the button below to view our
         registry to help create a honeymoon filled with memories we can cherish
         for the rest of our lives.
       </div>
