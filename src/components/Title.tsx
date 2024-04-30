@@ -91,9 +91,9 @@ const Title: React.FC = () => {
     <>
       <header
         id="Title"
-        className={`bg-dark_moss_green fixed top-0 z-50 w-full sm:block hidden`}
+        className={`bg-dark_moss_green fixed top-0 z-50 w-full sm:block hidden h-20`}
       >
-        <nav className="px-6 py-9 text-earth_yellow-900">
+        <nav className="h-full w-full text-earth_yellow-900 py-4">
           <div className="flex justify-around items-center text-2xl">
             <div
               className="title-item text-gray-800 cursor-pointer"

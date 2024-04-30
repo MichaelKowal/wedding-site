@@ -46,7 +46,7 @@ a.anchor {
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(96 108 56 / 0.2);
 }
 .hamburger-icon:hover {
   transform: scale(1.2);
