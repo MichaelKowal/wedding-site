@@ -31,7 +31,8 @@ const Start: React.FC = () => {
         </div>
         <div
           id="splash"
-          className={`md:w-1/2 w-full h-screen bg-[url('${getImageName()}')] bg-no-repeat bg-center bg-cover`}
+          className={`md:w-1/2 w-full h-screen bg-no-repeat bg-center bg-cover`}
+          style={{"backgroundImage": `url('${getImageName()}')`}}
         />
       </div>
     </section>
