@@ -4,8 +4,8 @@ import flowerBottom from "../assets/svgs/flower-frame-bottom.svg";
 const Start: React.FC = () => {
   const getImageName = () => {
     const index = Math.floor(Math.random() * 4) + 1;
-    if (index === 1) return `images/splash.png`;
-    return `images/splash${index}.png`;
+    if (index === 1) return `assets/images/splash.png`;
+    return `assets/images/splash${index}.png`;
   }
   return (
     <section id="Start" className="bg-cornsilk">
