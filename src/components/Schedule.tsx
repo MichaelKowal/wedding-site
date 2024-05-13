@@ -2,6 +2,12 @@ import React from "react";
 
 const scheduleList = [
   {
+    time: "12:30 PM",
+    event: "Shuttle pick up",
+    description:
+      "Shuttle arrives at Holiday Inn Express for pick up to the venue.",
+  },
+  {
     time: "2:00 PM",
     event: "Ceremony",
     description:
@@ -24,6 +30,11 @@ const scheduleList = [
     description: "Enjoy a delicious meal catered by Global Fusion.",
   },
   { time: "8:00 PM", event: "Dance the night away!", description: "" },
+  {
+    time: "10:00 PM",
+    event: "Shuttle leaves venue",
+    description: "Shuttle leaves back to Holiday Inn Express.",
+  },
 ];
 const Schedule: React.FC = () => {
   const renderSchedule = () =>

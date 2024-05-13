@@ -1,6 +1,6 @@
 import About from "./About";
 import Footer from "./Footer";
-import Information from "./Information";
+import Information from "./FAQ";
 import Menu from "./Menu";
 import Registry from "./Registry";
 import Schedule from "./Schedule";
