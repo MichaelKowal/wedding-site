@@ -1,4 +1,14 @@
-const Title: React.FC = () => {
+interface TitleOption {
+  name: string;
+  href?: string;
+  callback?: () => void;
+}
+
+interface TitleProps {
+  options: TitleOption[];
+}
+
+const Title: React.FC<TitleProps> = ({ options }) => {
   const handleOptionClick = (id: string) => {
     if (!id) return;
     const element = document.querySelector(id);
@@ -32,54 +42,19 @@ const Title: React.FC = () => {
 
         <nav id="nav">
           <ul onClick={handleMenuClick}>
-            <li className="text-center">
-              <div
-                className="title-item text-gray-800 cursor-pointer"
-                onClick={() => handleOptionClick("#About")}
-              >
-                About
-              </div>
-            </li>
-            <li className="text-center">
-              <div
-                className="title-item text-gray-800 cursor-pointer"
-                onClick={() => handleOptionClick("#Schedule")}
-              >
-                Schedule
-              </div>
-            </li>
-            <li className="text-center">
-              <div
-                className="title-item text-gray-800 cursor-pointer"
-                onClick={() => handleOptionClick("#Menu")}
-              >
-                Menu
-              </div>
-            </li>
-            <li className="text-center">
-              <div
-                className="title-item text-gray-800 cursor-pointer"
-                onClick={() => handleOptionClick("#Vibes")}
-              >
-                Vibes
-              </div>
-            </li>
-            <li className="text-center">
-              <div
-                className="title-item text-gray-800 cursor-pointer"
-                onClick={() => handleOptionClick("#Registry")}
-              >
-                Registry
-              </div>
-            </li>
-            <li className="text-center">
-              <div
-                className="title-item text-gray-800 cursor-pointer"
-                onClick={() => handleOptionClick("#Information")}
-              >
-                FAQ
-              </div>
-            </li>
+            {options.map((option) => (
+              <li className="text-center" key={option.name}>
+                <div
+                  className="title-item text-gray-800 cursor-pointer"
+                  onClick={
+                    option.callback ??
+                    (() => handleOptionClick(`#${option.href}`))
+                  }
+                >
+                  {option.name}
+                </div>
+              </li>
+            ))}
           </ul>
         </nav>
 
@@ -95,42 +70,18 @@ const Title: React.FC = () => {
       >
         <nav className="h-full w-full text-earth_yellow-900 py-4">
           <div className="flex justify-around items-center text-2xl">
-            <div
-              className="title-item text-gray-800 cursor-pointer"
-              onClick={() => handleOptionClick("#About")}
-            >
-              About
-            </div>
-            <div
-              className="title-item text-gray-800 cursor-pointer"
-              onClick={() => handleOptionClick("#Schedule")}
-            >
-              Schedule
-            </div>
-            <div
-              className="title-item text-gray-800 cursor-pointer"
-              onClick={() => handleOptionClick("#Menu")}
-            >
-              Menu
-            </div>
-            <div
-              className="title-item text-gray-800 cursor-pointer"
-              onClick={() => handleOptionClick("#Vibes")}
-            >
-              Vibes
-            </div>
-            <div
-              className="title-item text-gray-800 cursor-pointer"
-              onClick={() => handleOptionClick("#Registry")}
-            >
-              Registry
-            </div>
-            <div
-              className="title-item text-gray-800 cursor-pointer"
-              onClick={() => handleOptionClick("#Information")}
-            >
-              FAQ
-            </div>
+            {options.map((option) => (
+              <div
+                className="title-item text-gray-800 cursor-pointer"
+                onClick={
+                  option.callback ??
+                  (() => handleOptionClick(`#${option.href}`))
+                }
+                key={option.name}
+              >
+                {option.name}
+              </div>
+            ))}
           </div>
         </nav>
       </header>

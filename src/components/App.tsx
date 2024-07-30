@@ -1,29 +1,15 @@
-import About from "./About";
 import Footer from "./Footer";
-import Information from "./FAQ";
-import Menu from "./Menu";
-import Registry from "./Registry";
-import Schedule from "./Schedule";
-import Start from "./Start";
-import Title from "./Title";
-import Vibes from "./Vibes";
+import Welcome from "./Welcome";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="font-courgette">
-      <Title />
       <div className="h-screen bg-cornsilk text-dark_moss_green">
-        <Start />
-        <About />
-        <Schedule />
-        <Menu />
-        <Vibes />
-        <Registry />
-        <Information />
+        <Welcome />
         <Footer />
       </div>
     </div>
   );
-}
+};
 
 export default App;

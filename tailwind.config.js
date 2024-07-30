@@ -11,6 +11,9 @@ export default {
       },
     },
     colors: {
+      black: {
+        DEFAULT: "#000000",
+      },
       dark_moss_green: {
         DEFAULT: "#606c38",
         100: "#13160b",
