@@ -5,7 +5,6 @@ import createTheme from "@mui/material/styles/createTheme";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import house from "../../assets/svgs/house.svg";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { colorPalette } from "../../utils/color";
 import Footer from "../Footer";
 import PopoutImage from "../PopoutImage";
@@ -23,7 +22,6 @@ const PhotoGallery: React.FC = () => {
   const [images, setImages] = useState<ImageDesc[]>([]);
   const [index, setIndex] = useState<number>(1);
   const navigate = useNavigate();
-  const { width } = useWindowDimensions();
 
   const theme = createTheme({
     palette: {
@@ -46,16 +44,6 @@ const PhotoGallery: React.FC = () => {
   useEffect(() => {
     loadImages();
   }, []);
-
-  const getCols = () => {
-    // Large screens
-    if (width > 640) {
-      return 3;
-    }
-
-    // Small screens
-    return 1;
-  };
 
   const handleHomeClick = () => {
     navigate("/");
@@ -95,11 +83,11 @@ const PhotoGallery: React.FC = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="bg-cornsilk overflow-hidden">
+      <div className="bg-cornsilk overflow-hidden flex flex-col justify-center items-center">
         <div className="text-center text-dark_moss_green font-alex-brush sm:text-6xl text-5xl pt-4 w-full p-16">
           Michael and Georgia's Wedding
           <button
-            className="rounded-full w-12 h-12 text-3xl p-3 bg-cornsilk-400 bg-opacity-75 hover:bg-opacity-100 text-dark_moss_green-700 absolute right-0 top-0 mt-2 mx-2 z-10"
+            className="rounded-full w-12 h-12 text-3xl p-3 bg-cornsilk-400 bg-opacity-75 hover:bg-opacity-100 text-dark_moss_green-700 absolute right-0 top-0 m-4 z-10"
             onClick={handleHomeClick}
           >
             <img src={house} />
@@ -107,7 +95,7 @@ const PhotoGallery: React.FC = () => {
         </div>
         <ImageList
           variant="masonry"
-          cols={getCols()}
+          cols={1}
           gap={8}
           className={"m-8 overflow-x-hidden"}
         >
@@ -115,7 +103,7 @@ const PhotoGallery: React.FC = () => {
             <ImageListItem
               key={image.src}
               onClick={() => openFullScreen(index)}
-              className="hover:scale-105 hover:cursor-pointer hover:animate-grow animate-grow hover:border-1"
+              className="hover:scale-105 hover:cursor-pointer hover:animate-grow animate-grow hover:border-1 md:max-w-3xl"
             >
               <img src={image.src} loading="lazy" />
             </ImageListItem>
