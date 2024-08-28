@@ -5,6 +5,7 @@ import App from "./components/App.tsx";
 import "./index.css";
 import Info from "./components/info/Info.tsx";
 import PhotoGallery from "./components/pictures/Gallery.tsx";
+import Honeymoon from "./components/honeymoon/Honeymoon.tsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/info",
     element: <Info />,
+  },
+  {
+    path: "/honeymoon",
+    element: <Honeymoon />,
   },
 ]);
 

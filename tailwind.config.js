@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        grow: "1s ease-in-out infinite",
+      },
       fontFamily: {
         "alex-brush": ["Alex Brush", "cursive"],
         courgette: ["Courgette", "cursive"],

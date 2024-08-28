@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
       className="bg-cornsilk w-full h-50 flex flex-col justify-center items-center"
     >
       <div className="text-[black] text-center font-courgette  p-6">
-        © 2024 Michael Kowal
+        © 2024 Michael Riddell-Kowal
       </div>
       <img
         src="/android-chrome-512x512.png"

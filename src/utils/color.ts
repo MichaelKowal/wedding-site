@@ -1,5 +1,6 @@
 export const colorPalette = {
   dark_moss_green: {
+    main: "#606c38",
     DEFAULT: "#606c38",
     100: "#13160b",
     200: "#262b16",
@@ -24,6 +25,7 @@ export const colorPalette = {
     900: "#d5e4c3",
   },
   cornsilk: {
+    main: "#fefae0",
     DEFAULT: "#fefae0",
     100: "#5d5103",
     200: "#baa206",
