@@ -6,15 +6,14 @@ import { Theme } from "@mui/material/styles/createTheme";
 import Typography from "@mui/material/Typography";
 import { makeStyles } from "@mui/styles";
 import { useEffect, useState } from "react";
-import ShowMoreText from "react-show-more-text";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { HMItem } from "../../utils/HMItem";
 import { ImageDesc } from "../../utils/ImageDesc";
 import PopoutImage from "../PopoutImage";
+import { colorPalette } from "../../utils/color";
 
 const imageUrlStart =
-  "https://firebasestorage.googleapis.com/v0/b/michael-georgia-wedding.appspot.com/o/Wedding%2Fimg";
-const imageUrlEnd = ".jpeg?alt=media";
+  "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2F";
 
 interface HMCardProps {
   item: HMItem;
@@ -23,6 +22,7 @@ interface HMCardProps {
 const useStyles = makeStyles((_theme: Theme) => ({
   paper: {
     padding: "10px 16px 6px",
+    backgroundColor: colorPalette.cornsilk[700],
   },
   content: {
     padding: "6px",
@@ -43,13 +43,16 @@ const HMCard: React.FC<HMCardProps> = (props) => {
   const [fullScreen, setFullScreen] = useState<boolean>(false);
   const [index, setIndex] = useState<number>(-1);
   const [images, setImages] = useState<ImageDesc[]>([]);
+  const [showMore, setShowMore] = useState<boolean>(false);
   const { width } = useWindowDimensions();
   const classes = useStyles();
 
   const loadImages = () => {
     const urlArray: string[] = [];
     for (let i = 1; i <= (props.item.imageCount ?? 0); i++) {
-      urlArray.push(`${imageUrlStart}${i}${imageUrlEnd}`);
+      urlArray.push(
+        `${imageUrlStart}${props.item.imagePrefix}%2F${props.item.imagePrefix}%20-%20${i}.jpeg`
+      );
     }
     const loadedImages = urlArray.map((url) => ({
       src: url,
@@ -82,7 +85,7 @@ const HMCard: React.FC<HMCardProps> = (props) => {
   };
 
   const handleMovePictureBackward = () => {
-    if (index > 1) {
+    if (index >= 1) {
       setIndex(index - 1);
     }
   };
@@ -99,22 +102,37 @@ const HMCard: React.FC<HMCardProps> = (props) => {
         <Typography variant="h3" id="title" className="text-lg">
           {props.item.name}
         </Typography>
-        <Typography variant="h5" id="date">
+        <Typography variant="h5" id="date" className="pl-2">
           {props.item.subtitle}
         </Typography>
-        <Typography variant="h6" id="date">
+        <Typography variant="h6" id="date" className="pl-2">
           {props.item.dates}
         </Typography>
         <Box className={classes.content}>
-          <div id="container" className="overflow-y-auto p-4 sm:p-8 h-full">
-            <ShowMoreText
-              lines={3}
-              more="Show more"
-              less="Show less"
-              anchorClass={classes.showMoreLess}
+          <div
+            id="container"
+            className="overflow-y-auto px-4 sm:px-8 pt-2 pb-4 h-full"
+          >
+            {props.item.description?.map((item, index) => {
+              if (!showMore && index > 0) {
+                return null;
+              }
+              return (
+                <div
+                  className={`py-1`}
+                  style={item.additionalStyles}
+                  key={index}
+                >
+                  {item.text}
+                </div>
+              );
+            })}
+            <div
+              className="cursor-pointer text-cornflowerBlue hover:underline w-28"
+              onClick={() => setShowMore(!showMore)}
             >
-              {props.item.description}
-            </ShowMoreText>
+              {showMore ? "Show Less" : "Show More"}
+            </div>
           </div>
           <ImageList variant="masonry" cols={getCols()} gap={8}>
             {images.map((image, index) => (

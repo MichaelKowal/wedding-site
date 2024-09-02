@@ -17,6 +17,9 @@ export default {
       black: {
         DEFAULT: "#000000",
       },
+      cornflowerBlue: {
+        DEFAULT: "#6495ED",
+      },
       dark_moss_green: {
         DEFAULT: "#606c38",
         100: "#13160b",

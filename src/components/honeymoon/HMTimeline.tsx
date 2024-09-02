@@ -32,7 +32,7 @@ const HMTimeline: React.FC = () => {
                 }}
               />
               <TimelineDot color="primary">
-                <HMDot icon={`../assets/${item.icon}`} />
+                <HMDot icon={item.icon} />
               </TimelineDot>
               <TimelineConnector
                 style={{

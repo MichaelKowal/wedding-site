@@ -1,11 +1,18 @@
+import { CSSProperties } from "react";
+
 export interface HMItem {
   name: string;
   subtitle: string;
   icon: string;
-  description?: string;
+  description?: Description[];
   imagePrefix: string;
   imageCount?: number;
   dates?: string;
+}
+
+interface Description {
+  text: string;
+  additionalStyles?: CSSProperties;
 }
 
 export function isHMItem(item: unknown): item is HMItem {

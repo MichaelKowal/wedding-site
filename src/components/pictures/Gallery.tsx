@@ -4,14 +4,15 @@ import ImageListItem from "@mui/material/ImageListItem";
 import createTheme from "@mui/material/styles/createTheme";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import flowerTop from "../../assets/svgs/flower-frame-top.svg";
 import house from "../../assets/svgs/house.svg";
 import { colorPalette } from "../../utils/color";
 import Footer from "../Footer";
 import PopoutImage from "../PopoutImage";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const imageUrlStart =
-  "https://firebasestorage.googleapis.com/v0/b/michael-georgia-wedding.appspot.com/o/Wedding%2Fimg";
-const imageUrlEnd = ".jpeg?alt=media";
+  "https://axsfiyk4qrrj.objectstorage.us-sanjose-1.oci.customer-oci.com/n/axsfiyk4qrrj/b/wedding/o/img";
 
 interface ImageDesc {
   src: string;
@@ -33,7 +34,7 @@ const PhotoGallery: React.FC = () => {
   const loadImages = () => {
     const urlArray: string[] = [];
     for (let i = 1; i <= 110; i++) {
-      urlArray.push(`${imageUrlStart}${i}${imageUrlEnd}`);
+      urlArray.push(`${imageUrlStart}${i}.jpeg`);
     }
     const loadedImages = urlArray.map((url) => ({
       src: url,
@@ -84,6 +85,9 @@ const PhotoGallery: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="bg-cornsilk overflow-hidden flex flex-col justify-center items-center">
+        <div className="sm:w-1/2 w-full absolute top-0 left-0">
+          <img src={flowerTop} alt="border" />
+        </div>
         <div className="text-center text-dark_moss_green font-alex-brush sm:text-6xl text-5xl pt-4 w-full p-16">
           Michael and Georgia's Wedding
           <button
@@ -105,7 +109,7 @@ const PhotoGallery: React.FC = () => {
               onClick={() => openFullScreen(index)}
               className="hover:scale-105 hover:cursor-pointer hover:animate-grow animate-grow hover:border-1 md:max-w-3xl"
             >
-              <img src={image.src} loading="lazy" />
+              <LazyLoadImage src={image.src} loading="lazy" />
             </ImageListItem>
           ))}
         </ImageList>

@@ -1,8 +1,14 @@
-const Footer: React.FC = () => {
+interface FooterProps {
+  bgColor?: string;
+}
+
+const Footer: React.FC<FooterProps> = (props) => {
   return (
     <div
       id="Footer"
-      className="bg-cornsilk w-full h-50 flex flex-col justify-center items-center"
+      className={`${
+        props.bgColor ?? "bg-cornsilk"
+      } w-full h-50 flex flex-col justify-center items-center`}
     >
       <div className="text-[black] text-center font-courgette  p-6">
         © 2024 Michael Riddell-Kowal

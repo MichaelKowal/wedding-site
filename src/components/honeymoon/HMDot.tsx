@@ -11,13 +11,7 @@ const HMDot: React.FC<HMDotProps> = (props) => {
   }
   return (
     <div className="rounded-full w-16 h-16 overflow-hidden">
-      <img
-        className="max-w-none"
-        style={{ marginLeft: -6 }}
-        src={props.icon}
-        height={75}
-        width={75}
-      />
+      <img className="max-w-none" src={props.icon} width={65} />
     </div>
   );
 };

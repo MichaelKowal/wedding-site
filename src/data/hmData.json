@@ -2,48 +2,373 @@
   "items": [
     {
       "name": "Venice",
-      "subtitle": "Paintings and Pasta",
-      "dates": "June 3rd - June 8th",
-      "icon": "Venice.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed interdum ipsum, ac vulputate odio. Pellentesque id aliquam neque, vel consequat massa. Donec in nisi vel nisl sagittis pharetra. Aenean ut ex aliquet, eleifend ligula sed, dapibus tellus. Ut vitae tellus a nulla tincidunt efficitur non non tortor. Nulla tempus fringilla odio sit amet efficitur. Maecenas non augue aliquet, imperdiet risus quis, bibendum odio. Cras nunc magna, accumsan sed felis ut, facilisis tincidunt enim. Cras leo diam, sodales id auctor vel, sodales non felis. In placerat ullamcorper feugiat. Morbi mattis sagittis quam. Duis quis consequat odio. Cras tincidunt massa risus, vel auctor elit pretium eu. Etiam dictum est ullamcorper neque consequat, et ullamcorper velit suscipit. Aenean dapibus quam quam, finibus feugiat elit aliquet quis.\n\nNullam faucibus posuere dui, at dictum justo efficitur at. Nunc at augue commodo quam eleifend fringilla convallis eget est. Donec nec eleifend turpis, ac porta massa. Nullam sagittis luctus blandit. Mauris ultricies sem at nisi porta hendrerit. Mauris sed libero porta velit rutrum pellentesque et faucibus quam. Praesent maximus sollicitudin vestibulum. Sed non nisl sed nisl cursus sollicitudin. Pellentesque fermentum ex ac orci facilisis, sed feugiat enim accumsan. Morbi nec nisl vel felis pretium efficitur. Morbi bibendum, augue sed venenatis dictum, nibh lacus molestie justo, in condimentum diam massa eget urna. Etiam vitae malesuada odio. Aliquam quis pharetra diam. Maecenas non facilisis quam.\n\nSed accumsan, sem vitae rutrum sodales, est arcu sodales diam, ut lacinia lacus lectus ac orci. Proin ut aliquam mi, non lacinia eros. Nunc sed elementum leo, eget feugiat lacus. Mauris consequat leo nisl, eget semper est rutrum a. Vestibulum id ante sed est maximus porttitor. Phasellus ac orci egestas, elementum nulla non, viverra eros. Duis malesuada viverra purus, non tincidunt ipsum luctus id. Nunc hendrerit, magna non consectetur malesuada, ipsum leo tempus leo, non tempor turpis nunc volutpat nisl. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-      "imagePrefix": "venice",
+      "subtitle": "Arrival",
+      "dates": "Day 1",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fday1%2Fday1%20-%2011.jpeg",
+      "description": [
+        {
+          "text": "We landed in Venice in the middle of the day after a very long day of flights and connections. The temperature was perfect: warm with a nice breeze. We hopped on the Linia Blu ferry and got a great little tour of the city. We stopped at a bunch of different terminals and were able to get the lay of the land. We reached our stop and made our wade through the quiet streets of Lido to our hotel, stopping to smell the flowers on the way."
+        },
+        {
+          "text": "The room was great. The windows went to the ceiling and when we opened them we heard bird songs that would calm any weary traveler. We cleaned ourselves up and had a much needed nap before heading to the main street for dinner at the Lido Cafe."
+        },
+        {
+          "text": "G: Ravioli, Aperol Spritz - 8/10",
+          "additionalStyles": { "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "    \"Amazing ravioli! The garnish for the spritz nearly took out my eye.\"",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "    M: Pizza, Aperol Spritz: 7.5/10",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "    \"Good pizza. Too many mosquitos.",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "We walked back and saw some neat buildings and went right to bed."
+        }
+      ],
+      "imagePrefix": "day1",
+      "imageCount": 18
+    },
+    {
+      "name": "Dorsodoro",
+      "subtitle": "Paintings and Gondolas",
+      "dates": "Day 2",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fday2%2Fday2%20-%2024.jpeg",
+      "description": [
+        {
+          "text": "Today, we got up at 7 to seize the day and had the best continental breakfast of our lives.  M tried out the cappuccino machine which, to our delight, was fantastic"
+        },
+        {
+          "text": "G: Apricot jam pie, chocolate rice krispies, fresh meats and cheeses. 10/10",
+          "additionalStyles": { "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "M: Parfait, cornetto, fresh meats and cheeses, cream puff, cappuccino. 10/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "After breakfast we returned to the room to create a plan of attack and iron our well-packed clothes to better fit in with the fashionable venetians. We left the room around 9PM and got ourselves set up with a new phone plan. We went to a cafe and had another cappuccino to compare it against the hotel's digital barista; it was better."
+        },
+        {
+          "text": "We left the coffee shop and headed to the vaporetto.  We secured ourselves 2 48hr passes and headed for the main city. We had tickets for the Peggy Gugenheim Modern Art Museum at 11:30 so had some time to kill.  We got off at the Gardinia station a few stops before our final stop. The gardens were beautiful."
+        },
+        {
+          "text": "We hopped back on the ferry to get to the museum. We still had a bit of time to kill so just before entering we got some gelato."
+        },
+        {
+          "text": "G: Pistachio 7.5/10",
+          "additionalStyles": { "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "Extreme velvet with fresh cone",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "M: Caffe 7.5/10",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Good ice cream.  A bit over-hyped",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "We rolled into the museum and were greeted with a garden full of complex and ornate statues. It was humbling to see famous artists work in person. It was also inspiring to see the early works of some of them. The featured artist(Jean Cocteau) exhibit was...interesting."
+        },
+        {
+          "text": "After the Gugenheim we wandered to a quiet square and were greeted by some pigeons and an accordion player. It was a nice, calm moment where we just sat, listened to the music, and watched the birds. It was one of the nicest moments of our trip to have the little square all to ourselves and relax with \"Can't help falling in love\" quietly playing in the background."
+        },
+        {
+          "text": "When the sun started getting too hot we moved on to a cafe for lunch."
+        },
+        {
+          "text": "G: Spinach cannelloni with cheese sauce. 8/10",
+          "additionalStyles": { "padding": "1rem 1rem" }
+        },
+        {
+          "text": "M: Focaccia prosciutto sandwich, Fanta. 7/10",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Needed some veg. Italian Fanta was great.",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "Next we wandered into a local shop that sold purses and bags. Georgia has been looking for a good bag for a while. She splurged and went for italian leather that will hopefully last a lifetime."
+        },
+        {
+          "text": "After that we went on a world famous gondola ride and see the canals from the water. Our guide was a pro that has been a gondolier for 20 years. He took us through the Grand Canal and then into some side \"streets\" and showed us a gondola factory with dozens of gondolas piled up."
+        },
+        {
+          "text": "It was great being on the water but we decided to hide from the sun in the Gallerie del Accademia. There, we saw massive medieval works of art depicting battles and biblical scenes. There was a more modern section at the end that had some newer(from the 1800s) paintings and some marble statues. We weren't expecting to be as amazed as we were going in but were very happy we went."
+        },
+        {
+          "text": "After the gondola and the museum we returned to Lido and our hotel and planned some events for the next day.  There was a glass blowing class in the morning and a pasta making class in the evening and we signed up for both."
+        },
+        {
+          "text": "We went for dinner at Parco Delle Rose on main street."
+        },
+        {
+          "text": "G: Bruschetta, spaghetti bolognese, tiramisu, local wine 7/10",
+          "additionalStyles": { "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "Tiramisu was a bit too wet but the wine was great!",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "M: Bruschetta, farfalle with garlic butter and sage, tiramisu, local wine 7.5/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "After dinner we walked to Lido Beach. It had a great view looking out over the Mediterranean. After the sun went down we walked back to the hotel and tried to sleep so that we could get up early for our glass blowing class."
+        }
+      ],
+      "imagePrefix": "day2",
+      "imageCount": 38
+    },
+    {
+      "name": "Murano",
+      "subtitle": "Glass and Pasta Class",
+      "dates": "Day 3",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fday3%2Fday3%20-%2021.jpeg",
+      "description": [
+        {
+          "text": "A mosquito woke me up at 1:30 AM. This woke up Georgia, and neither of us could get back to sleep. The time change and the tiramisu for dinner probably didn't help. We used the opportunity to go back to Lido to catch the sunrise at 5:30."
+        },
+        {
+          "text": "The first cafe opened at 6. We got a cafe con latte and a cornetto to keep ourselves awake for the glass blowing class. Unfortunately, we got an email moments later telling us the class was canceled due to mechanical issues. We weren't too bothered as it gave us a bit of time to get some rest after breakfast."
+        },
+        {
+          "text": "I was able to get another couple hours of sleep but the coffee kept Georgia up. Even though we weren't able to do any glass blowing ourselves we decided we wanted to check out the island famous for it: Murano. We checked out the Murano Glass Museum and checked out some shops. We bought some glasses and Georgia got a new pair of earings at one of them. We had lunch on Murano."
+        },
+        {
+          "text": "G: Spaghetti pesto, lemoncello, pear juice 8/10",
+          "additionalStyles": { "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "\"The pear and apricot juices were both so sweet and so fresh!\"",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "M: Spaghetti carbonara, lemoncello, apricot juice 8.5/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "Georgia was dressed for glass blowing class, not walking through the streets of Venice and was melting away so we went dress shopping. She found 2 new dresses that she loves and was much more comfortable in the heat."
+        },
+        {
+          "text": "At 6PM our pasta making class started. It was so much fun! We made tiramisu, tagliatelle, and ravioli. There was bottomless wine as well that really improved the final product."
+        },
+        {
+          "text": "After the class we went straight back to our hotel and fell asleep immediately."
+        },
+        {
+          "text": "Fresh pasta recipe (per person):",
+          "additionalStyles": { "padding": "1rem", "fontWeight": "bold" }
+        },
+        {
+          "text": "1 egg",
+          "additionalStyles": { "padding": "0 1.5rem" }
+        },
+        {
+          "text": "100g 00 Flour",
+          "additionalStyles": { "padding": "0 1.5rem 1rem" }
+        },
+        {
+          "text": "1. In a large mixing bowl, add the flower and create a well in the center.",
+          "additionalStyles": { "padding": "0 1.5rem 0.25rem" }
+        },
+        {
+          "text": "2. Add the egg(s) to the well. Whisk the eggs with a fork until they are fully mixed. Once all the yolk and white are combined, slowly start pulling in flour from below the egg(s) and from the sides. Continue mixing until the egg is fully combined with the flour.",
+          "additionalStyles": { "padding": "0.25rem  1.5rem" }
+        },
+        {
+          "text": "3. Knead the dough until it is smooth and it bounces back when you push your finger into it.",
+          "additionalStyles": { "padding": "0.25rem  1.5rem" }
+        },
+        {
+          "text": "4a. With a pasta machine: Roll out the dough on the widest setting, coating with flour between rolls. Repeat this step twice on each setting before reducing the size. When your pasta is thin enough to see through it it's time to cut.",
+          "additionalStyles": { "padding": "0.25rem  1.5rem" }
+        },
+        {
+          "text": "4b. With a rolling pin: Roll out the dough slowly. Try to keep rolling in the same direction to make sure you get long strips of dough. Keep doing this until the dough is thin enough to see through it.",
+          "additionalStyles": { "padding": "0.25rem 1.5rem" }
+        },
+        {
+          "text": "5. Using either a knife or a pasta machine, carefully cut the flattened dough to desired thickness. Adding more flour to the noodles now will help prevent them from sticking together.",
+          "additionalStyles": { "padding": "0.25rem  1.5rem" }
+        },
+        {
+          "text": "6. Add the noodles to a pot of boiling, salted water and cook for 3 mins.",
+          "additionalStyles": { "padding": "0.25rem  1.5rem" }
+        },
+        {
+          "text": "7. Add your favourite sauce and enjoy!",
+          "additionalStyles": { "padding": "0.25rem  1.5rem" }
+        }
+      ],
+      "imagePrefix": "day3",
       "imageCount": 30
     },
     {
-      "name": "Lugano",
-      "subtitle": "Spa above the city",
-      "dates": "June 8th - June 10th",
-      "icon": "Lugano.webp",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed interdum ipsum, ac vulputate odio. Pellentesque id aliquam neque, vel consequat massa. Donec in nisi vel nisl sagittis pharetra. Aenean ut ex aliquet, eleifend ligula sed, dapibus tellus. Ut vitae tellus a nulla tincidunt efficitur non non tortor. Nulla tempus fringilla odio sit amet efficitur. Maecenas non augue aliquet, imperdiet risus quis, bibendum odio. Cras nunc magna, accumsan sed felis ut, facilisis tincidunt enim. Cras leo diam, sodales id auctor vel, sodales non felis. In placerat ullamcorper feugiat. Morbi mattis sagittis quam. Duis quis consequat odio. Cras tincidunt massa risus, vel auctor elit pretium eu. Etiam dictum est ullamcorper neque consequat, et ullamcorper velit suscipit. Aenean dapibus quam quam, finibus feugiat elit aliquet quis.\n\nNullam faucibus posuere dui, at dictum justo efficitur at. Nunc at augue commodo quam eleifend fringilla convallis eget est. Donec nec eleifend turpis, ac porta massa. Nullam sagittis luctus blandit. Mauris ultricies sem at nisi porta hendrerit. Mauris sed libero porta velit rutrum pellentesque et faucibus quam. Praesent maximus sollicitudin vestibulum. Sed non nisl sed nisl cursus sollicitudin. Pellentesque fermentum ex ac orci facilisis, sed feugiat enim accumsan. Morbi nec nisl vel felis pretium efficitur. Morbi bibendum, augue sed venenatis dictum, nibh lacus molestie justo, in condimentum diam massa eget urna. Etiam vitae malesuada odio. Aliquam quis pharetra diam. Maecenas non facilisis quam.\n\nSed accumsan, sem vitae rutrum sodales, est arcu sodales diam, ut lacinia lacus lectus ac orci. Proin ut aliquam mi, non lacinia eros. Nunc sed elementum leo, eget feugiat lacus. Mauris consequat leo nisl, eget semper est rutrum a. Vestibulum id ante sed est maximus porttitor. Phasellus ac orci egestas, elementum nulla non, viverra eros. Duis malesuada viverra purus, non tincidunt ipsum luctus id. Nunc hendrerit, magna non consectetur malesuada, ipsum leo tempus leo, non tempor turpis nunc volutpat nisl. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-      "imagePrefix": "Spa",
-      "imageCount": 10
+      "name": "Opera",
+      "subtitle": "and Georgia's Birthday",
+      "dates": "Day 4",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fday4%2Fday4%20-%203.jpeg",
+      "description": [
+        {
+          "text": "We had a lovely breakfast and coffee at our hotel and enjoyed it outside in the garden to fully appreciate the space before we checked out and said goodbye to Lido."
+        },
+        {
+          "text": "We hopped on a ferry and went to our new hotel, Hotel Murcurio, for the last night to be closer to the opera that we would be seeing that night. The room wasn't ready but we were able to stash our bags there and go for lunch. While looking for a lunch place we stumbled across St Mark's Square, one of the biggest tourist attractions in the city. There were hundreds of people all checking out the space. Just around the corner from the square we found a little restaurant on a canal."
+        },
+        {
+          "text": "G: Mystery noodle & pesto, orange juice with Campari, cannoli and chocolate mousse, Aperol Spritz 8/10",
+          "additionalStyles": { "padding": "1rem 1rem" }
+        },
+        {
+          "text": "M: Tortellini with garlic sauce, Campari Spritz, Bellini 8.5/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "After lunch we went back to the hotel to see our room. We climbed to the tippy top of the building and discovered our honeymoon suite dressed in rose petals and with a bottle of prosecco on the side table. We settled in to the room and then ventured back out into the narrow, twisting streets of central Venice for dinner."
+        },
+        {
+          "text": "G: Beetroot gnocchi with pistachio sauce and ricotta, white wine 9/10",
+          "additionalStyles": { "padding": "1rem 1rem" }
+        },
+        {
+          "text": "M: Char-grilled pork chop, dill potatoes, asparagus, apple sauce, mystery crunchy veg thing, red wine 9.5/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "We finished dinner and went to the theatre across the street 20 minutes early only to find out that the show was at another place! It was a 12 minute walk away and we made it just in time despite our fancy shoes and google maps not working in Venice. We were'nt able to get an english program so we had to go by vibes for most of it. Even with the language barrier it was a great show."
+        }
+      ],
+      "imagePrefix": "day4",
+      "imageCount": 8
+    },
+    {
+      "name": "Spa",
+      "subtitle": "From Venice to Lugano",
+      "dates": "Day 5 - Day 6",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fspa%2Fspa%20-%2017.jpeg",
+      "description": [
+        {
+          "text": "We had our last breakfast in Venice."
+        },
+        {
+          "text": "G: Eggs, cheese, toast, bacon, hot chocolate 9/10",
+          "additionalStyles": { "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "\"The hot chocolate was so thick it could be a mousse if it was chilled.\"",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "M: Omelette, mocha, cornetto 8/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "After breakfast we went back to the hotel to check out and then made our way to the train station. We got there shortly before our departure. Unfortunately, there were no seats to be found at the station so we were stuck with our heavy bags."
+        },
+        {
+          "text": "We took our train to Milan and then a connection to Lugano where we crossed the border into Switzerland. As we crossed the border we lost cell service. When we arrived in Lugano we had to reorient ourselves and, while doing so, missed 3 busses. Finally, late and tired, we got on the 211 and took it all the way to the top of a mountain in Cademario where we were staying at the Kurhaus Spa."
+        },
+        {
+          "text": "The spa was beautiful and we got the couples package with all the bells and whistles including a 4 course meal, a room upgrade with an amazing view, a bottle of prosecco and rose petals in the room, and a couples massage. There was a large indoor/outdoor pool with different sections where you could turn on different types of jets. Past the pool were the saunas. 3 different types all with varying levels of heat and humidity, and a frigidarium for cold plunges between sauna sessions."
+        },
+        {
+          "text": "We spent 2 blissful days here recuperating from walking around Venice before moving on to our next adventure."
+        }
+      ],
+      "imagePrefix": "spa",
+      "imageCount": 20
     },
     {
       "name": "Bern",
-      "subtitle": "Medieval city and the top of Europe",
-      "dates": "June 10th - June 12th",
-      "icon": "bern.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed interdum ipsum, ac vulputate odio. Pellentesque id aliquam neque, vel consequat massa. Donec in nisi vel nisl sagittis pharetra. Aenean ut ex aliquet, eleifend ligula sed, dapibus tellus. Ut vitae tellus a nulla tincidunt efficitur non non tortor. Nulla tempus fringilla odio sit amet efficitur. Maecenas non augue aliquet, imperdiet risus quis, bibendum odio. Cras nunc magna, accumsan sed felis ut, facilisis tincidunt enim. Cras leo diam, sodales id auctor vel, sodales non felis. In placerat ullamcorper feugiat. Morbi mattis sagittis quam. Duis quis consequat odio. Cras tincidunt massa risus, vel auctor elit pretium eu. Etiam dictum est ullamcorper neque consequat, et ullamcorper velit suscipit. Aenean dapibus quam quam, finibus feugiat elit aliquet quis.\n\nNullam faucibus posuere dui, at dictum justo efficitur at. Nunc at augue commodo quam eleifend fringilla convallis eget est. Donec nec eleifend turpis, ac porta massa. Nullam sagittis luctus blandit. Mauris ultricies sem at nisi porta hendrerit. Mauris sed libero porta velit rutrum pellentesque et faucibus quam. Praesent maximus sollicitudin vestibulum. Sed non nisl sed nisl cursus sollicitudin. Pellentesque fermentum ex ac orci facilisis, sed feugiat enim accumsan. Morbi nec nisl vel felis pretium efficitur. Morbi bibendum, augue sed venenatis dictum, nibh lacus molestie justo, in condimentum diam massa eget urna. Etiam vitae malesuada odio. Aliquam quis pharetra diam. Maecenas non facilisis quam.\n\nSed accumsan, sem vitae rutrum sodales, est arcu sodales diam, ut lacinia lacus lectus ac orci. Proin ut aliquam mi, non lacinia eros. Nunc sed elementum leo, eget feugiat lacus. Mauris consequat leo nisl, eget semper est rutrum a. Vestibulum id ante sed est maximus porttitor. Phasellus ac orci egestas, elementum nulla non, viverra eros. Duis malesuada viverra purus, non tincidunt ipsum luctus id. Nunc hendrerit, magna non consectetur malesuada, ipsum leo tempus leo, non tempor turpis nunc volutpat nisl. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-      "imagePrefix": "Bern",
-      "imageCount": 45
+      "subtitle": "The Bear Pit",
+      "dates": "Day 7",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
+      "description": [
+        {
+          "text": "This morning we left the spa and headed back down the mountain to the train station. The train from Lugano to Bern took about 4 hours and brought us through some of the most mountainous parts of the country. The views were spectacular."
+        },
+        {
+          "text": "We arrived in Bern at around 2PM and headed to our hotel to check in. After getting rid of our bags we took a bus to the Rosengarten which is a public access park that overlooks the city. The views were, once again, spectacular."
+        },
+        {
+          "text": "Walking down the hill from the garden brought us to the famous Bern Bear Pit. There were no bears in sight. We grabbed a couple drinks at a brewery next door and took in the city and river that flows through it."
+        },
+        {
+          "text": "G: Pretzel and lager 7/10",
+          "additionalStyles": { "padding": "1rem 1rem" }
+        },
+        {
+          "text": "M: Different pretzel and marzen 7/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        },
+        {
+          "text": "After some beer and pretzels we walked home, taking the scenic route along the river. Along the way we stumbled across a statue of Albert Einstein, we managed to see some bears, and we found the Zytglogge clock tower in the historic old town, just steps away from our hotel."
+        }
+      ],
+      "imagePrefix": "bern",
+      "imageCount": 23
     },
     {
-      "name": "Montreaux",
+      "name": "Interlaken",
+      "subtitle": "Top of Europe",
+      "dates": "Day 8",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
+      "description": [
+        {
+          "text": "We woke up at 5AM to make sure we got to the train on time. We caught the 7AM connection and had breakfast on the train in the restaurant car on our way to Interlaken. We then got on another train that took us up the hill to Grindelwald where we could take the gondola up to the top of Jungfrau Mountain. The gondola took us to a lookout station where we could take yet another train that tunneled through the mountain the rest of the way to the peak."
+        },
+        {
+          "text": "We made it to the peak at about 10AM. We were immediately feeling the altitude. Georgia was a bit giddy. We had a snack, got our bearings and then started the tour. First stop was the Sphinx research center at the top, then we went down into the discovery cave that told the history of the area. Next was the ice palace where we walked through tunnels of ice and saw a bunch of ice sculptures. Finally we went out onto the glacier plateau. After the tour we went back inside for lunch and had some cheese fondue. There were a lot of places to get gifts included numerous watch shops and a fully stocked Lindt chocolate store."
+        },
+        {
+          "text": "We headed back down to Interlaken at 1. Once there we walked along the river and had a tea before going on to our next adventure: chocolate making! The class was great! We got to try a big variety of chocolate and made 3 different bars each."
+        },
+        {
+          "text": "We finished off our day trip to Interlaken with pizza and minestrone soup at a small restaurant and went back to Bern for bed."
+        }
+      ],
+      "imagePrefix": "interlaken",
+      "imageCount": 57
+    },
+    {
+      "name": "Montreux",
+      "subtitle": "Chillion Castle",
+      "dates": "Day 9",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
+      "description": [],
+      "imagePrefix": "montreux",
+      "imageCount": 30
+    },
+    {
+      "name": "Gruyere",
       "subtitle": "Aliens on a train",
-      "dates": "June 12th - June 14th",
-      "icon": "train.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed interdum ipsum, ac vulputate odio. Pellentesque id aliquam neque, vel consequat massa. Donec in nisi vel nisl sagittis pharetra. Aenean ut ex aliquet, eleifend ligula sed, dapibus tellus. Ut vitae tellus a nulla tincidunt efficitur non non tortor. Nulla tempus fringilla odio sit amet efficitur. Maecenas non augue aliquet, imperdiet risus quis, bibendum odio. Cras nunc magna, accumsan sed felis ut, facilisis tincidunt enim. Cras leo diam, sodales id auctor vel, sodales non felis. In placerat ullamcorper feugiat. Morbi mattis sagittis quam. Duis quis consequat odio. Cras tincidunt massa risus, vel auctor elit pretium eu. Etiam dictum est ullamcorper neque consequat, et ullamcorper velit suscipit. Aenean dapibus quam quam, finibus feugiat elit aliquet quis.\n\nNullam faucibus posuere dui, at dictum justo efficitur at. Nunc at augue commodo quam eleifend fringilla convallis eget est. Donec nec eleifend turpis, ac porta massa. Nullam sagittis luctus blandit. Mauris ultricies sem at nisi porta hendrerit. Mauris sed libero porta velit rutrum pellentesque et faucibus quam. Praesent maximus sollicitudin vestibulum. Sed non nisl sed nisl cursus sollicitudin. Pellentesque fermentum ex ac orci facilisis, sed feugiat enim accumsan. Morbi nec nisl vel felis pretium efficitur. Morbi bibendum, augue sed venenatis dictum, nibh lacus molestie justo, in condimentum diam massa eget urna. Etiam vitae malesuada odio. Aliquam quis pharetra diam. Maecenas non facilisis quam.\n\nSed accumsan, sem vitae rutrum sodales, est arcu sodales diam, ut lacinia lacus lectus ac orci. Proin ut aliquam mi, non lacinia eros. Nunc sed elementum leo, eget feugiat lacus. Mauris consequat leo nisl, eget semper est rutrum a. Vestibulum id ante sed est maximus porttitor. Phasellus ac orci egestas, elementum nulla non, viverra eros. Duis malesuada viverra purus, non tincidunt ipsum luctus id. Nunc hendrerit, magna non consectetur malesuada, ipsum leo tempus leo, non tempor turpis nunc volutpat nisl. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-      "imagePrefix": "Train",
-      "imageCount": 15
+      "dates": "Day 10",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
+      "description": [],
+      "imagePrefix": "gruyere",
+      "imageCount": 49
     },
     {
       "name": "Geneva",
-      "subtitle": "McDonalds and Michelin Stars",
-      "dates": "June 14th - June 15th",
-      "icon": "Geneva.webp",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed interdum ipsum, ac vulputate odio. Pellentesque id aliquam neque, vel consequat massa. Donec in nisi vel nisl sagittis pharetra. Aenean ut ex aliquet, eleifend ligula sed, dapibus tellus. Ut vitae tellus a nulla tincidunt efficitur non non tortor. Nulla tempus fringilla odio sit amet efficitur. Maecenas non augue aliquet, imperdiet risus quis, bibendum odio. Cras nunc magna, accumsan sed felis ut, facilisis tincidunt enim. Cras leo diam, sodales id auctor vel, sodales non felis. In placerat ullamcorper feugiat. Morbi mattis sagittis quam. Duis quis consequat odio. Cras tincidunt massa risus, vel auctor elit pretium eu. Etiam dictum est ullamcorper neque consequat, et ullamcorper velit suscipit. Aenean dapibus quam quam, finibus feugiat elit aliquet quis.\n\nNullam faucibus posuere dui, at dictum justo efficitur at. Nunc at augue commodo quam eleifend fringilla convallis eget est. Donec nec eleifend turpis, ac porta massa. Nullam sagittis luctus blandit. Mauris ultricies sem at nisi porta hendrerit. Mauris sed libero porta velit rutrum pellentesque et faucibus quam. Praesent maximus sollicitudin vestibulum. Sed non nisl sed nisl cursus sollicitudin. Pellentesque fermentum ex ac orci facilisis, sed feugiat enim accumsan. Morbi nec nisl vel felis pretium efficitur. Morbi bibendum, augue sed venenatis dictum, nibh lacus molestie justo, in condimentum diam massa eget urna. Etiam vitae malesuada odio. Aliquam quis pharetra diam. Maecenas non facilisis quam.\n\nSed accumsan, sem vitae rutrum sodales, est arcu sodales diam, ut lacinia lacus lectus ac orci. Proin ut aliquam mi, non lacinia eros. Nunc sed elementum leo, eget feugiat lacus. Mauris consequat leo nisl, eget semper est rutrum a. Vestibulum id ante sed est maximus porttitor. Phasellus ac orci egestas, elementum nulla non, viverra eros. Duis malesuada viverra purus, non tincidunt ipsum luctus id. Nunc hendrerit, magna non consectetur malesuada, ipsum leo tempus leo, non tempor turpis nunc volutpat nisl. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-      "imagePrefix": "Geneva",
-      "imageCount": 15
+      "subtitle": "Le Chat Botte",
+      "dates": "Day 11",
+      "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
+      "description": [],
+      "imagePrefix": "geneva",
+      "imageCount": 14
     }
   ]
 }

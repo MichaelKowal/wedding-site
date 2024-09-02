@@ -87,12 +87,12 @@ const PopoutImage: React.FC<PopoutImageProps> = (props) => {
           onClick={handleMovePictureBackward}
           color="primary"
           variant="contained"
-          disabled={props.index < 1}
+          disabled={props.index <= 0}
         >
           {"<"}
         </Button>
         <Typography>
-          {props.index}/{props.images.length}
+          {props.index + 1}/{props.images.length}
         </Typography>
         <Button
           className={classes.roundedButton}
