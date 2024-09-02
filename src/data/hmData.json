@@ -348,7 +348,34 @@
       "subtitle": "Chillion Castle",
       "dates": "Day 9",
       "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
-      "description": [],
+      "description": [
+        {
+          "text": "After a very full day of adventuring yesterday we took our time getting up and then perused the shops in Bern. There were tons of fun bakeries and chocolatiers, we saw the Swiss parliament building, and we picked up some keepsakes for home."
+        },
+        {
+          "text": "On our way to the train we grabbed a sausage from a cart on the sidewalk. It was a foot long, in a baguette, and with mustard, ketchup, and a curry sauce. It was delicious. 10/10"
+        },
+        {
+          "text": "After that we got on the train to Montreux. Georgia had a much needed nap. The landscape smoothed out a lot heading into the french part of the country."
+        },
+        {
+          "text": "At our new hotel in Montreux we were very warmly welcomed by our hotelier who told us much about himself, including how he loves his dog so much and couldn't believe that we were away from ours. He told us about Chillion Castle just south of town and how to get there. We didn't have anything planned for the day so thought we'd check it out."
+        },
+        {
+          "text": "Chillion Castle was a real castle. It had a dungeon, a keep, turrets, and all the other castley bits that one might imagine. We had free reign to go anywhere we wanted and see everything. It was cool. We ended the tour with Georgia dipping her toes in Lac Leman."
+        },
+        {
+          "text": "Next we went on a hangry wild goose chase with google maps sending us to closed restaurants. We ended up at a very fancy place called La Brasserie."
+        },
+        {
+          "text": "G: Steak and veg 8/10",
+          "additionalStyles": { "padding": "1rem 1rem" }
+        },
+        {
+          "text": "M: Burger and wine 7/10",
+          "additionalStyles": { "padding": "0 1rem 1rem" }
+        }
+      ],
       "imagePrefix": "montreux",
       "imageCount": 30
     },
@@ -357,7 +384,20 @@
       "subtitle": "Aliens on a train",
       "dates": "Day 10",
       "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
-      "description": [],
+      "description": [
+        {
+          "text": "We excitedly awoke for our chocolate train tour this morning. We had first class tickets in a fancy car full of wood-accents that made you feel like you were on your way to Hogwarts. The train stopped in Gruyere where we took a bus to the cheese factory and learned how they make gruyere cheese."
+        },
+        {
+          "text": "After the cheese factory we had a lunch break at the medieval gruyere castle. As we had just been at a castle the day before we opted to check out the quintessential medieval village instead. To our surprise, we stumbled upon the H.R. Geiger museum which seemed rather out of place given the setting. We had to go in. It was interesting but disturbing. We left unsettled by all the nightmare fuel. Across the street was a bar themed after Geiger's work. Once again, we had to go in. It had spinal columns making up the core structure, and chairs and tables made to look like skeletons. We had grilled (gruyere) cheese sandwiches and finished it up with Xenomorph shots(which were surprisingly refreshing)."
+        },
+        {
+          "text": "For the last leg of our tour we got back on the bus and went to the Cailler chocolate factory. We learned about the history of Cailler chocolate and got to see how they make them. There was a tasting section with about 10 different chocolates, but the line was moving quick so we didn't have much time to savour the flavour in between each one. We shoveled the treats into our mouths and moved on feeling ill from all the chocolate."
+        },
+        {
+          "text": "The bus brought us back to Montreux and we stopped at an irish pub before heading to our hotel for the night."
+        }
+      ],
       "imagePrefix": "gruyere",
       "imageCount": 49
     },
@@ -366,7 +406,90 @@
       "subtitle": "Le Chat Botte",
       "dates": "Day 11",
       "icon": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axsfiyk4qrrj/b/wedding/o/honeymoon%2Fbern%2Fbern%20-%2023.jpeg",
-      "description": [],
+      "description": [
+        {
+          "text": "We woke up on our last full day in Europe. We had breakfast at the hotel before heading to Geneva. We got in to the city, walked around a little bit and then grabbed a coffee, but it started raining. We checked into our hotel and had a rest as we were both tired."
+        },
+        {
+          "text": "In the evening we set out to have one last adventure: a michelin restaurant. Le Chat Botte is right on the water overlooking Geneva's giant fountain. We had the 5 course vegetarian tasting menu"
+        },
+        {
+          "text": "Apertif",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "3 small bites. One that was a mochi consistency herbal explosion. The next was a smokey cheese bread thing. The last was a thin layer of parsley gel over a cheesy cracker.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "First Course",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "Pea coconut gazpacho with pickled strawberries and a cracker ring.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Second Course",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "This course was dedicated to the tomato. Foamed tomato filled with jammed tomato on top of a cracker with creamy herbal reduction and a tomato ravioli with cheese and tomato filling.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Third Course",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "Deep fried zucchini flower and cheese, grilled zucchini, zucchini noodles,  onion gravy and drops of lemon mustard.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Fourth Course",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "Seared fennel root with a refreshing gelled outer layer covered in browned onion butter",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Fifth Course",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "Corn in many ways. Baby corn, popcorn, and sweet corn kernels enjoyed with a pepper paste. Corn bread shaped like popcorn on a bed of popcorn kernels. And finally, a cream corn mousse that tickled the tongue.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Pallet Cleanser",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "Strawberry sorbet with a meringue.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Dessert",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "G: Poached Rhubarb and honeycomb cracker on a soft nougat.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "M: Cracker on ice cream on meringue drizzled with a kiwi compote.",
+          "additionalStyles": { "padding": "0 1rem" }
+        },
+        {
+          "text": "Bonus Chocolate",
+          "additionalStyles": { "fontWeight": "bold", "padding": "1rem 1rem 0" }
+        },
+        {
+          "text": "4 little bites presented on a bed of cocoa nibs. A milk chocolate, a raspberry marshmallow, a dark chocolate, and a raspberry flavoured soft candy.",
+          "additionalStyles": { "padding": "0 1rem" }
+        }
+      ],
       "imagePrefix": "geneva",
       "imageCount": 14
     }
